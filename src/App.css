@@ -1,0 +1,135 @@
+/* Estilo para o título principal */
+h1 {
+  text-align: center;
+  /* margin-top: 30px; */
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.my-4{
+  padding-top: 15px;
+}
+
+.sub-title{
+  color: rgb(116, 116, 116);
+  padding-bottom: 15px;
+}
+
+.div-title{
+  background-color: rgb(30, 29, 29);
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.input-group_mb-3{
+  width: 100%;
+  text-align: center;
+
+}
+
+.input-group-append{
+  padding-top: 10px;
+}
+
+.card_h-100{
+  background-color: #c7c7c7;
+  padding: 30px 0 30px 0;
+  /* padding-left: 30%;
+  padding-right: 30%; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: flex; */
+  text-align: center;
+}
+/* Estilo para o campo de busca */
+.input-group {
+  margin-bottom: 20px;
+  
+}
+
+.form-control {
+  font-size: 1rem;
+}
+
+/* Estilo para o botão de busca */
+.btn-primary {
+  font-size: 1rem;
+}
+
+/* Estilo para os cards de filmes */
+/* .card {
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+.card-img-top{
+  max-height: 250px;
+  width: 30%;
+  border: 2px solid #3308ce;
+  border-radius: 7px;
+  
+  /* padding-left: 30%;
+  padding-right: 30%; */
+
+
+  /* object-fit: cover; */
+  /* padding-left: 50%; */
+  /* padding-top: 5px; */
+  /* text-align: center; */
+}
+
+.card-title {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #ffffff
+};
+
+/* Estilo para o contêiner dos cards de filmes */
+.row {
+  width: 100%;
+  
+ 
+}
+
+
+/* .crad-body{
+  
+  padding-left: 2%;
+
+} */
+
+button{
+  background-color: rgb(0, 225, 0);
+  color: white;
+  /* width: 60px;
+  height: 20px; */
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+
+.div-interna{
+  padding: 20px;
+  background-color: #0b143b;
+  width: 50%;
+  /* padding: 10px;
+  padding-left: 150px;
+  padding-right: 150px; */
+  border: 1px solid #5c5c5c;
+  border-radius: 7px;
+  text-align: center;
+  
+}
