@@ -1,7 +1,7 @@
 /* Estilo para o título principal */
 h1 {
   text-align: center;
-  /* margin-top: 30px; */
+
   font-size: 2rem;
   color: #ffffff;
 }
@@ -39,13 +39,10 @@ h1 {
 .card_h-100{
   background-color: #c7c7c7;
   padding: 30px 0 30px 0;
-  /* padding-left: 30%;
-  padding-right: 30%; */
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* display: flex; */
   text-align: center;
 }
 /* Estilo para o campo de busca */
@@ -63,26 +60,12 @@ h1 {
   font-size: 1rem;
 }
 
-/* Estilo para os cards de filmes */
-/* .card {
-  
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} */
 
 .card-img-top{
   max-height: 250px;
   width: 30%;
   border: 2px solid #3308ce;
   border-radius: 7px;
-  
-  /* padding-left: 30%;
-  padding-right: 30%; */
-
-
-  /* object-fit: cover; */
-  /* padding-left: 50%; */
-  /* padding-top: 5px; */
-  /* text-align: center; */
 }
 
 .card-title {
@@ -103,18 +86,9 @@ h1 {
  
 }
 
-
-/* .crad-body{
-  
-  padding-left: 2%;
-
-} */
-
 button{
   background-color: rgb(0, 225, 0);
   color: white;
-  /* width: 60px;
-  height: 20px; */
   padding: 5px 25px;
   border-radius: 5px;
   border: none;
@@ -125,9 +99,6 @@ button{
   padding: 20px;
   background-color: #0b143b;
   width: 50%;
-  /* padding: 10px;
-  padding-left: 150px;
-  padding-right: 150px; */
   border: 1px solid #5c5c5c;
   border-radius: 7px;
   text-align: center;
