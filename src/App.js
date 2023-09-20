@@ -18,10 +18,13 @@ function App() {
       //teste do consumo do json com mais detalhes que deu erro
       // const response2 = await axios.get(`https://www.omdbapi.com/?s=${searchTerm}&apikey=8d68a9be`);
 
+      setError(null); // Limpa o erro se a busca for bem sucedida
+
       // Atualiza o estado de movies com os resultados da busca ou um array vazio se nenhum resultado for encontrado
       setMovies(response.data.Search || []);
     } catch (error) {
       // Em caso de erro, exibe uma mensagem no console
+      setError('Erro ao buscar filmes. Tente novamente mais tarde.'); // Define a mensagem de erro
       console.error('Erro ao buscar filmes: ', error);
     }
   };
@@ -51,6 +54,8 @@ function App() {
             </button>
         </div>
       </div>
+
+      {error && <div className="alert alert-danger">{error}</div>} {/* Exibe a mensagem de erro se houver */}
       
       </div>
 
