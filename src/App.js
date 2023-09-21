@@ -23,8 +23,7 @@ function App() {
       // Atualiza o estado de movies com os resultados da busca ou um array vazio se nenhum resultado for encontrado
       setMovies(response.data.Search || []);
     } catch (error) {
-      // Em caso de erro, exibe uma mensagem no console
-      setError('Erro ao buscar filmes. Tente novamente mais tarde.'); // Define a mensagem de erro
+      // Em caso de erro, a tela fica em branco
       console.error('Erro ao buscar filmes: ', error);
     }
   };
