@@ -55,7 +55,7 @@ function App() {
         </div>
       </div>
 
-      {error && <div className="alert alert-danger">{error}</div>} {/* Exibe a mensagem de erro se houver */}
+      {movies.length === 0 && <div className="alert alert-danger">{error}</div>} {/* Exibe a mensagem de erro se houver */}
       
       </div>
 
